@@ -35,3 +35,18 @@
 
 // Write a program that reads an integer number n from the console and prints all numbers in the range [1…n], each on a separate line.
 
+public class nInterger
+{
+    public static void Main()
+    {
+        int m = 1;
+        int n = 100;
+ 
+        int[] array = new int[n - m + 1];
+        for (int i = 0; i < array.Length; i++) {
+            array[i] = m++;
+        }
+ 
+        Console.WriteLine(String.Join(", ", array));
+    }
+}
