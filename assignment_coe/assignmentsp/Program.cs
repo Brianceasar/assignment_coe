@@ -3,6 +3,7 @@
 //number 1
 
 //Write a program that prints the first 100 members of the sequence 2, -3, 4, -5, 6, -7, 8
+
 // Solution 1
 
 /*public class Sequence
@@ -20,7 +21,8 @@
 */
 
 // Solution 2
-public class Sequence
+
+/*public class Sequence
 {
     static void Main (string[] args)
     {
@@ -38,11 +40,10 @@ public class Sequence
 
         Console.WriteLine();
     }
-}
+}*/
+
 //number 2
-
 // Write a program that reads your age from the console and prints your age after 10 years.
-
 
 // class Program
 // {
@@ -63,6 +64,18 @@ public class Sequence
    
 //   }
 // }
+
+class Program  
+{  
+    static void Main(string[] args)  
+    {     
+        Console.Write("Input your current age:");  
+        int age = Convert.ToInt32(Console.ReadLine());  
+        Console.Write("Your age after 10 years:");  
+        age = age + 10;  
+        Console.Write("{0} ", age);  
+    }  
+ } 
 
 
 
