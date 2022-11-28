@@ -65,7 +65,7 @@
 //   }
 // }
 
-class Program  
+/*class Program  
 {  
     static void Main(string[] args)  
     {     
@@ -76,14 +76,14 @@ class Program
         Console.Write("{0} ", age);  
     }  
  } 
-
+*/
 
 
 // number 3
 
 // Write a program that reads an integer number n from the console and prints all numbers in the range [1…n], each on a separate line.
 
-/*public class nInterger
+public class nInterger
 {
     public static void Main()
     {
@@ -97,7 +97,7 @@ class Program
  
         Console.WriteLine(String.Join(", ", array));
     }
-}*/
+}
 
 // number 4
 
