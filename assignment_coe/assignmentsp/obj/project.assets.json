@@ -8,24 +8,26 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/home/kussy/.nuget/packages/": {}
+    "C:\\Users\\Brian Ceasar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/kussy/Desktop/assignmentsp/assignment_coe/assignmentsp/coe.csproj",
+      "projectUniqueName": "C:\\Users\\Brian Ceasar\\Desktop\\assignment_coe\\assignment_coe\\assignmentsp\\coe.csproj",
       "projectName": "coe",
-      "projectPath": "/home/kussy/Desktop/assignmentsp/assignment_coe/assignmentsp/coe.csproj",
-      "packagesPath": "/home/kussy/.nuget/packages/",
-      "outputPath": "/home/kussy/Desktop/assignmentsp/assignment_coe/assignmentsp/obj/",
+      "projectPath": "C:\\Users\\Brian Ceasar\\Desktop\\assignment_coe\\assignment_coe\\assignmentsp\\coe.csproj",
+      "packagesPath": "C:\\Users\\Brian Ceasar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Brian Ceasar\\Desktop\\assignment_coe\\assignment_coe\\assignmentsp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/kussy/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Brian Ceasar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -59,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.403/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
