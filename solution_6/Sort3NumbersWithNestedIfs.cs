@@ -1,4 +1,4 @@
-// Condition: Write a program that sorts 3 real numbers in descending order
+// Condition: Using nested if-statement Write a program that sorts 3 real numbers in descending order
 
 namespace Sort3NumbersWithNestedIfs
 {
