@@ -6,13 +6,15 @@ namespace AgeAfterTenYears
     {
         static void Main (string[] args)
         {
-            Console.Write("Input your current age: ");
+            Console.Write("Input your current age: ");           
 
+            /*ToInt32 is used to convert input interger which is taken as a string to interger
+             so as to perform an arthmetic operation*/
             int age = Convert.ToInt32(Console.ReadLine());
 
             Console.Write("Your age after 10 years: ");
 
-            age = age + 10 ;
+            age += 10 ;
 
             Console.Write("{0} ", age);
         }
