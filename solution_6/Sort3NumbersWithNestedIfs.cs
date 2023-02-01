@@ -1,69 +1,126 @@
 // Condition: Using nested if-statement Write a program that sorts 3 real numbers in descending order
 
-namespace Sort3NumbersWithNestedIfs
+
+namespace SortNumbers
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter first number: ");
-            int a = Int32.Parse(Console.ReadLine());
-            Console.Write("Enter second number: ");
-            int b = Int32.Parse(Console.ReadLine());
-            Console.Write("Enter third number: ");
-            int c = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("Enter three real numbers: ");
+            double num1 = double.Parse(Console.ReadLine());
+            double num2 = double.Parse(Console.ReadLine());
+            double num3 = double.Parse(Console.ReadLine());
 
-            if (a < b)
+            if (num1 >= num2 && num1 >= num3)
             {
-                if (a < c)
+                Console.Write(num1 + " ");
+                if (num2 >= num3)
                 {
-                    a = a + c;
-                    c = a - c;
-                    a = a - c;
-
-                    if (b > c)
-                    {                        
-                        a = a + b;
-                        b = a - b;
-                        a = a - b;
-                    }
+                    Console.Write(num2 + " " + num3);
                 }
-                else if (a >= c)
+                else
                 {
-                    a = a + b;
-                    b = a - b;
-                    a = a - b;
+                    Console.Write(num3 + " " + num2);
                 }
             }
-            else if (a == b)
+            else if (num2 >= num1 && num2 >= num3)
             {
-                if (a < c)
+                Console.Write(num2 + " ");
+                if (num1 >= num3)
                 {
-                    a = a + c;
-                    c = a - c;
-                    a = a - c;
+                    Console.Write(num1 + " " + num3);
+                }
+                else
+                {
+                    Console.Write(num3 + " " + num1);
                 }
             }
             else
             {
-                if (b < c)
+                Console.Write(num3 + " ");
+                if (num1 >= num2)
                 {
-                    b = b + c;
-                    c = b - c;
-                    b = b - c;
+                    Console.Write(num1 + " " + num2);
                 }
-                if (a < b)
+                else
                 {
-                    a = a + b;
-                    b = a - b;
-                    a = a - b;
+                    Console.Write(num2 + " " + num1);
                 }
             }
-            Console.WriteLine("{0}, {1}, {2}", a, b, c);
-            Console.ReadLine();
+            Console.WriteLine();
         }
     }
 }
+
+
+
+
+
+// namespace Sort3NumbersWithNestedIfs
+// {
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             Console.Write("Enter first number: ");
+//             int a = Int32.Parse(Console.ReadLine());
+//             Console.Write("Enter second number: ");
+//             int b = Int32.Parse(Console.ReadLine());
+//             Console.Write("Enter third number: ");
+//             int c = Int32.Parse(Console.ReadLine());
+
+//             if (a < b)
+//             {
+//                 if (a < c)
+//                 {
+//                     a = a + c;
+//                     c = a - c;
+//                     a = a - c;
+
+//                     if (b > c)
+//                     {                        
+//                         a = a + b;
+//                         b = a - b;
+//                         a = a - b;
+//                     }
+//                 }
+//                 else if (a >= c)
+//                 {
+//                     a = a + b;
+//                     b = a - b;
+//                     a = a - b;
+//                 }
+//             }
+//             else if (a == b)
+//             {
+//                 if (a < c)
+//                 {
+//                     a = a + c;
+//                     c = a - c;
+//                     a = a - c;
+//                 }
+//             }
+//             else
+//             {
+//                 if (b < c)
+//                 {
+//                     b = b + c;
+//                     c = b - c;
+//                     b = b - c;
+//                 }
+//                 if (a < b)
+//                 {
+//                     a = a + b;
+//                     b = a - b;
+//                     a = a - b;
+//                 }
+//             }
+//             Console.WriteLine("{0}, {1}, {2}", a, b, c);
+//             Console.ReadLine();
+//         }
+//     }
+// }
 
 
 
